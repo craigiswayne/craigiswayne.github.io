@@ -5,7 +5,7 @@ describe('Base Checks', () => {
     })
 
     it('Head tag checks', () => {
-        cy.title().should('eq', 'Craig Wayne Portfolio');
+        cy.title().should('eq', 'Craig Wayne's Portfolio');
         cy.get('head link[rel="shortcut icon"]').should('be.exist');
         cy.get('head meta[name="description"]').should('exist');
     })

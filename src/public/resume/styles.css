@@ -3,7 +3,8 @@
     --color-primary-light: #5d7cbc;
     --color-muted: #666;
     --gap-small: 5px;
-    --gap-large: 20px;
+    --gap-medium: 1rem;
+    --gap-large: 2.5rem;
 }
 
 body {
@@ -63,10 +64,10 @@ h2 {
 .contact-info {
     font-size: 12px;
     color: var(--color-muted);
-    margin-bottom: var(--gap-large);
+    margin-bottom: var(--gap-medium);
     display: flex;
     align-items: center;
-    column-gap: var(--gap-large);
+    column-gap: var(--gap-medium);
     row-gap: var(--gap-small);
     flex-wrap: wrap;
 }

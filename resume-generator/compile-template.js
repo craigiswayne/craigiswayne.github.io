@@ -5,7 +5,7 @@ import pug from 'pug';
 // TODO: skills to be associated to experience and then a total combined list of skills
 // TODO: tools section
 // https://resumeworded.com/assets/images/resume-guides/software-product-manager.png
-const file_contents = fs.readFileSync('./src/public/data.json', 'utf-8');
+const file_contents = fs.readFileSync('../src/public/data.json', 'utf-8');
 const raw_data = JSON.parse(file_contents);
 
 const all_skills_from_work_experience = [].concat(...raw_data.work_experience.map(i => i.technologies)).sort();
@@ -23,8 +23,8 @@ const data = {
         skills_from_work_experience_and_extra_skills,
     }
 }
-const html = pug.renderFile('./resume-generator/template.pug', data);
+const html = pug.renderFile('./template.pug', data);
 
-const output_file = './src/public/resume/index.html';
+const output_file = '../src/public/resume/index.html';
 fs.writeFileSync(output_file, html);
 console.log(`Created ${output_file}`)

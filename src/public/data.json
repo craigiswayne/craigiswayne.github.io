@@ -12,6 +12,50 @@
   "work_experience": [
     {
       "organization": {
+        "name": "Janus AI",
+        "url": "https://janusai.io/",
+        "logo": "https://janusai.io/wp-content/uploads/2025/05/JANUS-WHITE.png"
+      },
+      "position": "Senior Frontend Developer",
+      "location": {
+        "city": "Douglas",
+        "country": "Isle of Man",
+        "address": "1st Floor, 35 Market Street,Douglas, IM1 2PE, 01624 673 696"
+      },
+      "period": {
+        "start_verbose": "1 Oct 2025",
+        "start": "Oct 2025",
+        "end": "Present"
+      },
+      "responsibilities": [
+        "Design and Develop Dashboards and Landing Pages",
+        "Maintain and Deploy admin portals",
+        "Integrate with AI",
+        "Integrate with REST APIs",
+        "Integrate with Cashflows payment portals"
+      ],
+      "technologies": [
+        "REST",
+        "Payments",
+        "AI",
+        ".NET",
+        "Typescript",
+        "AWS",
+        "SCSS",
+        "Angular",
+        "Shell Scripting",
+        "Docker",
+        "CI/CD"
+      ],
+      "referee": {
+        "name": "James Crawford",
+        "position": "Co-Founder",
+        "contact_email": "james@ja.im",
+        "contact_phone": "+44 7824 388355"
+      }
+    },
+    {
+      "organization": {
         "name": "UROC Studios",
         "url": "https://uroc.com",
         "logo": "/logo_uroc_studios.jpeg"
@@ -19,11 +63,14 @@
       "position": "Senior Full Stack Developer",
       "location": {
         "city": "Douglas",
-        "country": "Isle of Man"
+        "country": "Isle of Man",
+        "address": "Sovereign House, 4 Christian Road, Douglas IM1 2SD, Isle of Man"
       },
       "period": {
+        "start_verbose": "Monday 04 Nov 2024",
         "start": "Nov 2024",
-        "end": "Present"
+        "end_verbose": "19 September 2025",
+        "end": "Sept 2025"
       },
       "responsibilities": [
         "Design and Develop Slot, Scratch and Crash Games",
@@ -48,7 +95,13 @@
         "ThreeJS",
         "Figma",
         "Cypress"
-      ]
+      ],
+      "referee": {
+        "name": "Dave Brown",
+        "position": "Team Lead",
+        "contact_email": "dave@uroc.com",
+        "contact_phone": "+44 7513 101829"
+      }
     },
     {
       "position": "Senior Full Stack Developer",
@@ -59,11 +112,14 @@
       },
       "location": {
         "city": "Douglas",
-        "country": "Isle of Man"
+        "country": "Isle of Man",
+        "address": "62 Circular RdDouglas, Isle of Man"
       },
       "period": {
+        "start_verbose": "Monday 3 Oct 2022",
         "start": "Oct 2022",
-        "end": "Nov 2024"
+        "end_verbose": "Thursday 31 Oct 2024",
+        "end": "Oct 2024"
       },
       "responsibilities": [
         "Creating and maintaining in-house solutions to improve business processes",
@@ -123,11 +179,15 @@
         "Docker",
         "Node.js",
         "CI/CD",
-        "Docker",
         "Load testing",
         "Nginx",
         "E-Commerce"
-      ]
+      ],
+      "referee": {
+        "name": "Tania Immelman",
+        "email": "Tania.Immelman@Rank.com",
+        "position": "HR"
+      }
     },
     {
       "position": "Intermediate Web Developer",
@@ -191,7 +251,6 @@
       ],
       "technologies": [
         ".NET",
-        "MongoDB",
         "API Design",
         "WordPress",
         "React",
@@ -201,6 +260,32 @@
         "Docker",
         "MySQL",
         "SEO"
+      ]
+    },
+    {
+      "position": "Junior Developer",
+      "organization": {
+        "name": "BlueBox",
+        "url": "https://www.blueboxonline.com/",
+        "logo": "/logo_bluebox.jpeg"
+      },
+      "location": {
+        "city": "Durban",
+        "country": "South Africa"
+      },
+      "period": {
+        "start": "Aug 2013",
+        "end": "Oct 2014"
+      },
+      "responsibilities": [
+        "Maintenance and support for Supply Chain Management Companies and Media Houses.",
+        "This role required a basic knowledge of PHP, Frontend (CSS and JavaScript) and competency with external APIs."
+      ],
+      "technologies": [
+        "PHP",
+        "CSS",
+        "Javascript",
+        "3rd Party Libraries"
       ]
     }
   ],

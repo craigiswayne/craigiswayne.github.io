@@ -69,22 +69,23 @@ Absolutely — here’s a practical decision table.
 
 ## CSS keyframes vs SVG `animate` / SMIL
 
-| Criteria                     | CSS animations / keyframes                              | SVG `animate` / SMIL                                              |
-|------------------------------|---------------------------------------------------------|-------------------------------------------------------------------|
-| **Best for**                 | UI motion, icons, loaders, transitions                  | SVG-native, self-contained graphic animation                      |
-| **Ease of use**              | Easier for most web devs                                | More specialized / less commonly used                             |
-| **Readability**              | Clear when driven by classes/states                     | Clear when animation lives entirely inside SVG                    |
-| **Maintainability**          | Usually better in app codebases                         | Good for isolated SVG assets, less ideal in large app logic       |
-| **Animating transforms**     | Very good for `translate`, `scale`, `rotate`, `opacity` | Also good, especially when embedded in SVG                        |
-| **Animating SVG attributes** | Limited or awkward for many SVG-only attributes         | Stronger for attributes like `cx`, `r`, `stroke-dashoffset`, etc. |
-| **State integration**        | Excellent with framework state/classes                  | Less direct; often not as convenient in app UIs                   |
-| **Performance**              | Generally very good for transform/opacity               | Also good; depends on animation type and browser                  |
-| **Browser support**          | Excellent and consistent                                | Good in modern browsers, but less preferred overall               |
-| **Tooling / debugging**      | Better support in devtools and build workflows          | Usually less convenient to debug/maintain                         |
-| **Responsive/theming**       | Easier to adapt with CSS variables and media queries    | Possible, but less natural                                        |
-| **Self-contained asset**     | Animation often split between CSS and markup            | Excellent: animation can live inside the SVG itself               |
-| **Accessibility control**    | Easier to respect reduced-motion preferences via CSS    | Possible, but typically handled outside the SVG                   |
-| **Complex sequencing**       | Possible, but can get messy                             | Can be nice for internal SVG choreography                         |
+| Criteria                          | CSS animations / keyframes                              | SVG `animate` / SMIL                                              |
+|-----------------------------------|---------------------------------------------------------|-------------------------------------------------------------------|
+| Animation restarts when un-hidden | true                                                    | false                                                             |
+| **Best for**                      | UI motion, icons, loaders, transitions                  | SVG-native, self-contained graphic animation                      |
+| **Ease of use**                   | Easier for most web devs                                | More specialized / less commonly used                             |
+| **Readability**                   | Clear when driven by classes/states                     | Clear when animation lives entirely inside SVG                    |
+| **Maintainability**               | Usually better in app codebases                         | Good for isolated SVG assets, less ideal in large app logic       |
+| **Animating transforms**          | Very good for `translate`, `scale`, `rotate`, `opacity` | Also good, especially when embedded in SVG                        |
+| **Animating SVG attributes**      | Limited or awkward for many SVG-only attributes         | Stronger for attributes like `cx`, `r`, `stroke-dashoffset`, etc. |
+| **State integration**             | Excellent with framework state/classes                  | Less direct; often not as convenient in app UIs                   |
+| **Performance**                   | Generally very good for transform/opacity               | Also good; depends on animation type and browser                  |
+| **Browser support**               | Excellent and consistent                                | Good in modern browsers, but less preferred overall               |
+| **Tooling / debugging**           | Better support in devtools and build workflows          | Usually less convenient to debug/maintain                         |
+| **Responsive/theming**            | Easier to adapt with CSS variables and media queries    | Possible, but less natural                                        |
+| **Self-contained asset**          | Animation often split between CSS and markup            | Excellent: animation can live inside the SVG itself               |
+| **Accessibility control**         | Easier to respect reduced-motion preferences via CSS    | Possible, but typically handled outside the SVG                   |
+| **Complex sequencing**            | Possible, but can get messy                             | Can be nice for internal SVG choreography                         |
 
 ## Quick guidance
 

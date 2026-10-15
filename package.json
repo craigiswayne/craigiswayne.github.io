@@ -2,6 +2,13 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "build": "vite build",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "extract:figma": "node extract-figma-files.js",
+    "dev": "vite"
+  },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-alert-dialog": "^1.1.6",
@@ -61,12 +68,5 @@
     "pug": "^3.0.3",
     "puppeteer": "^24.32.1",
     "vite": "7.1.11"
-  },
-  "scripts": {
-    "build": "vite build",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "extract:figma": "node extract-figma-files.js",
-    "dev": "vite"
   }
 }
